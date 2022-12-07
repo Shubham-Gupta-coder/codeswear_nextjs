@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -13,7 +11,6 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
       <img src="landing.png" className="w-screen" />
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
@@ -180,7 +177,6 @@ export default function Home() {
           </button>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
